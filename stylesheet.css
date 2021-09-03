@@ -3,35 +3,117 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    font-family: sans-serif;
   }
-
-
+body{
+    background:white; 
+    font-family:'Open Sans', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
 
 .logo-container{
 
+    
     position: relative;
     margin: 0 auto;
     width: 20%;
     top: 10em;
+    max-width: 600px;
+    min-width: 300px;
 
 }
 
-.form{
+.logo-item{
 
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
-    
+    margin-top:40px;
+    max-width: 600px;
+    min-width: 300px;
+    height: 180px;
+
+} 
+
+
+.button-container{
+    margin-top: 340px;
+}
+.button-container .button11{
+    background-color: #f2f2f2;
+color: #5F6368;
+padding: 0px 16px;
+margin: 11px 4px;
+border: 1px solid #f2f2f2;
+border-radius: 4px;
+font-family: arial,sans-serif;
+font-size: 18px;
+line-height: 27px;
+height: 37px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+height: 50px;
+
+
+
+}
+.container{
+
+top:280px ;
+left: 47%;
+transform: translate(-50%, -50%);
+position: absolute;
+max-width:500px;
+
+
+}
+
+.search-box{
+
+border-radius: 50px;
+background: white;
+border:1px solid rgb(216, 198, 198) ;
+min-width:600px ;
+
+}
+form{
+
+margin: 0;
+
+}
+input{
+    border: none;
+    margin: 10px 5px 10px 0px ;
+    font-size: 15px;
+    outline: none;
+    color: #085f63
     
 }
-.button{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    margin-top: 1em;
+ span{
+font-size: 20px;
+margin:0px 10px;
+color:#566566 ;
+padding-top: 15px;
+ 
+
+
+}
+span:hover{
+    color: rgb(15, 14, 15);
+}
+button{
+    background: transparent;
+    border: none;
+}
+#right{
+position: absolute;
+bottom: 13px;
+margin-left:305px;
+color:blue;
 
 }
