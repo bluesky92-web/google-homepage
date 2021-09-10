@@ -33,12 +33,6 @@ margin-top: 60px;
    position: relative;
    top: 70px;
     left: 95px;
-   
-    
-    
-    
-    
-    
 } 
 
 
@@ -46,9 +40,10 @@ margin-top: 60px;
     margin-top: 170px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
+
+
 .button-container .button11{
 background-color: #f2f2f2;
 color: #5F6368;
@@ -65,9 +60,10 @@ text-align: center;
 cursor: pointer;
 height: 50px;
 
-
-
 }
+
+
+
 .container{
 
 top:280px ;
@@ -75,12 +71,10 @@ left: 47%;
 transform: translate(-50%, -50%);
 position: absolute;
 max-width:500px;
-
-
 }
 
-.search-box{
 
+.search-box{
 border-radius: 50px;
 background: white;
 border:1px solid rgb(216, 198, 198) ;
@@ -93,28 +87,32 @@ form{
 margin: 0;
 
 }
+
+
 input{
     border: none;
     margin: 10px 5px 10px 0px ;
     font-size:20px;
     outline: none;
     color: #080808
-    
-    
 }
+
+
 
  span{
 font-size: 20px;
 margin:0px 10px;
-color:#1b1ec7 ;
+color:#5f60aa ;
 padding-top: 20px;
-
-
-
 }
+
+
+
 span:hover{
     color: rgb(15, 14, 15);
 }
+
+
 button{
     background: transparent;
     border: none;
@@ -131,20 +129,18 @@ height: 30px;
 }
 
 .container:hover {
-    box-shadow: 0 0 4px  rgba(33,33,33,.2); 
+    box-shadow: 0 0 4px 0 rgba(33,33,33,.2); 
 }
-.nav-container{
-    margin-right: 20px;
-    margin-bottom: 5px;
-    padding: 0;
-  }
 
+.nav-container{
+    padding-right:20px;
+}
 
 .nav-container ul{
  position: relative;
  padding-left: 15px;
  list-style-type: none;
- bottom: 30px;
+ bottom: 20px;
 
     
 }
@@ -163,17 +159,36 @@ text-decoration: none;
 
 
 }
+#nav-to-left:hover{
+
+    opacity: .85;
+    text-decoration: underline;
+
+}
+#nav-to-right:hover{
+
+    opacity: .85;
+    text-decoration: underline;
+}
+
 .material-icons{
     position: relative;
     height: 30px;
     width: 30px;
     color: #000;
     cursor: pointer;
-    opacity: 0.55;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.85;
     display: inline-block;
     outline: none;
     vertical-align: middle;
     bottom: 20px;
+}
+
+.material-icons:hover{
+
+    
 }
 .sign-in-but{
     
@@ -189,8 +204,65 @@ text-decoration: none;
     font-family: arial,sans-serif;
     border-radius: 2px;
     line-height: 28px;
-    cursor: pointer;
-   position: relative;
-   bottom: 12px;
+    position: relative;
+    bottom:11px 
 
 }
+.foot-div-container  ul {
+list-style-type: none;
+line-height: 50px;
+font-family: arial,sans-serif;
+font-size: 17px;
+
+}
+
+#footer-nav-right{
+float:right;
+padding:0px 0px 0px 27px ;
+white-space: nowrap;
+color: #5f6368;
+text-decoration: none;
+white-space: nowrap;
+}
+
+#footer-nav-right:hover{
+
+    text-decoration: underline;
+
+}
+
+
+#footer-nav-left{
+padding:0px 0px 0px 27px ;
+float:left;
+white-space: nowrap;
+color: #5f6368;
+text-decoration: none;
+white-space: nowrap;
+}
+
+#footer-nav-left:hover{
+
+    text-decoration: underline;
+
+}
+
+
+
+.foot-div-container {
+    overflow: auto;
+    background-color: #F2F2F2;
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    padding-left: 27px;
+    padding-right: 27px;
+    height: 50px;
+    min-width: 707px;
+    border-top:1px solid  #e6e6e6;
+    overflow: hidden;
+  }
+    
+
+
+
