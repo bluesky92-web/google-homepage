@@ -125,12 +125,12 @@ button{
 #right{
 
 position: relative;
-left: 240px;
+left: 235px;
 color: blue;
 outline: none;
 font-weight: bold;
 width: 30px;
-height: 30px;
+height: 25px;
 }
 
 .container:hover {
